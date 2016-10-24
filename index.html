@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <!-- Latest compiled and minified CSS -->
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity=
+    "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    rel="stylesheet"><!-- Optional theme -->
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity=
+    "sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    rel="stylesheet"><!-- Latest compiled and minified JavaScript -->
+
+    <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <title>Laboratorio no.1</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Encuesta</h2>
+        <p>Esta es una encuesta de servicio de los buses de Agua Caliente de
+        Cartago, donde 5 es excelente y 1 es malo.</p>
+
+        <form action='/' method='post' id="form">
+            <div class="form-group">
+                <label for="comment">Considera que el trato de los choferes?:</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="1" name="pUno">1</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="2" name="pUno">2</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="3" name="pUno">3</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="4" name="pUno">4</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="5" name="pUno">5</label>
+                </div>
+            </div>
+
+            <!--preg 2 -->
+            <div class="form-group">
+                <label for="comment">Considera que las unidades de buses se encuentran en ___ estado?</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="1" name="pDos">1</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="2" name="pDos">2</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="3" name="pDos">3</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="4" name="pDos">4</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="5" name="pDos">5</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Considera que la tarifa es justa?</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="Si" name="pTres">Si</label>
+                    <label><input type="checkbox" value="No" name="pTres">No</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Considera que los asientos están limpios y son cómodos?</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="Si" name="pCuatro">Si</label>
+                    <label><input type="checkbox" value="No" name="pCuatro">No</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Podría darnos una opinión general del servicio?</label>
+                <br>
+                <textarea name="pSeis" rows="8" cols="40"></textarea>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
