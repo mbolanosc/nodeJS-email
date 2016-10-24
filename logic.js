@@ -14,7 +14,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 function enviarCorreo(mjs){
 	var mailOptions = {
 	    from: '"Lado Del Servidor 🐶" <ladoservidor2016@gmail.com>',
-	    to: 'mbolanosc@ucenfotec.ac.cr',
+	    to: 'gchavarria@ucenfotec.ac.cr',
 	    subject: 'Laboratorio numero 1 🖥 ',
 	    text: mjs,
 	    html: '<b>' + mjs + '</b>' // html body
